@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ISIL App</string>
+    <string name="title_activity_news">Noticias</string>
+    <string name="title_activity_events">Eventos</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="title_activity_profile">Mi perfil</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_detalle_clubs">DetalleClubsActivity</string>
+    <string name="title_activity_categorias_clubs">CategoriasClubsActivity</string>
+    <string name="title_activity_clubs">ClubsActivity</string>
+    <string name="title_activity_representante_insert">RepresentanteInsertActivity</string>
+    <string name="title_activity_representante">RepresentanteActivity</string>
+    <string name="title_activity_representante_update">RepresentanteUpdateActivity</string>
+    <string name="title_activity_detalle_sedes">DetalleSedesActivity</string>
+    <string name="title_activity_sedes_map">SedesMapActivity</string>
+</resources>

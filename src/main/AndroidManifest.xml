@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- AndroidManifest.xml -->
+    <!-- Always include this permission -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include only if your app benefits from precise location access. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ISILApp">
+        <activity
+            android:name=".SedesMapActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sedes_map"
+            android:theme="@style/Theme.ISILApp" />
+        <activity
+            android:name=".DetalleSedesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_detalle_sedes"
+            android:theme="@style/Theme.ISILApp" />
+        <activity
+            android:name=".RepresentanteUpdateActivity"
+            android:exported="false"
+            android:label="@string/title_activity_representante_update"
+            android:theme="@style/Theme.ISILApp" />
+        <activity
+            android:name=".RepresentanteActivity"
+            android:exported="false"
+            android:label="@string/title_activity_representante"
+            android:theme="@style/Theme.ISILApp" />
+        <activity
+            android:name=".RepresentanteInsertActivity"
+            android:exported="false"
+            android:label="@string/title_activity_representante_insert"
+            android:theme="@style/Theme.ISILApp" />
+        <activity
+            android:name=".ClubsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_clubs"
+            android:theme="@style/Theme.ISILApp" />
+        <activity
+            android:name=".CategoriasClubsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_categorias_clubs"
+            android:theme="@style/Theme.ISILApp" />
+        <activity
+            android:name=".DetalleClubsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_detalle_clubs"
+            android:theme="@style/Theme.ISILApp" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.ISILApp" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/Theme.ISILApp" />
+        <activity
+            android:name=".IntroActivity"
+            android:exported="true"
+            android:theme="@style/Theme.App.Starting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EventsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_events"
+            android:theme="@style/Theme.ISILApp" />
+        <activity
+            android:name=".NewsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_news"
+            android:theme="@style/Theme.ISILApp" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ISILApp" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCp0izY1_kB_J9yayaGrlslham0sOEy5mg" />
+    </application>
+
+</manifest>
